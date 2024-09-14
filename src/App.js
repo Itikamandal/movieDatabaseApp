@@ -11,7 +11,6 @@ import MovieDetails from './components/MovieDetails'
 const App = () => (
   <>
     <Switch>
-      
       <Route exact path="/" component={PopularMoviePage} />
       <Route exact path="/top-rated" component={TopRatedMoviesPage} />
       <Route exact path="/upcoming" component={UpcomingMoviesPage} />
